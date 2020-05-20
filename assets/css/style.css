@@ -14,7 +14,7 @@ VERSION: Versoin Number
 
 body {
   line-height: 1.2;
-  font-family: roboto, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #4c4c4c
@@ -25,7 +25,7 @@ p {
   color: #4c4c4c;
   font-size: 15px;
   line-height: 1.8;
-  font-family: roboto, sans-serif
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif
 }
 
 h1,
@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   color: #000;
-  font-family: playfair display, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   line-height: 1.2
 }
 
@@ -87,7 +87,7 @@ h6,
 
 .btn {
   font-size: 22px;
-  font-family: playfair display, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-transform: capitalize;
   padding: 16px 44px;
   border-radius: 5px;
@@ -217,13 +217,13 @@ a:hover {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px
+  padding-top: 40px;
+  padding-bottom: 40px
 }
 
 .section-title {
   margin-bottom: 80px;
-  font-family: bwnistaint-xbd
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .bg-cover {
@@ -332,11 +332,11 @@ a:hover {
 }
 
 .font-secondary {
-  font-family: playfair display, serif !important
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important
 }
 
 .font-tertiary {
-  font-family: bwnistaint-xbd !important
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important
 }
 
 .shadow {
@@ -441,7 +441,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: bwnistaint-xbd;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-transform: uppercase;
   padding: 15px
 }
@@ -468,7 +468,7 @@ textarea.form-control {
 
 .hero-area h1 {
   position: relative;
-  z-index: 2
+  z-index: 1
 }
 
 .layer {
@@ -695,7 +695,7 @@ textarea.form-control {
 }
 
 .footer-section {
-  padding-top: 200px
+  padding-top: 0px
 }
 
 .section-on-footer {
@@ -742,7 +742,7 @@ blockquote {
 }
 
 .content strong {
-  font-family: playfair display, serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 22px;
   font-weight: 400;
   color: #000;
