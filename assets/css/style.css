@@ -455,7 +455,7 @@ textarea.form-control {
 }
 
 .hero-area {
-  padding: 250px 0 200px;
+  padding: 250px 0 250px;
   position: relative
 }
 
@@ -523,6 +523,7 @@ textarea.form-control {
 
 .layer-bg {
   position: absolute;
+  top: 85px;
   bottom: 0;
   left: 0
 }
