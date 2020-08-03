@@ -50,7 +50,7 @@ $(window).on('load', function () {
 			return;
 		}
 
-		var
+/* 		var
 			c1left = document.getElementById('l1').offsetLeft,
 			c1top = document.getElementById('l1').offsetTop,
 			c2left = document.getElementById('l2').offsetLeft,
@@ -68,14 +68,14 @@ $(window).on('load', function () {
 			c8left = document.getElementById('l8').offsetLeft,
 			c8top = document.getElementById('l8').offsetTop,
 			c9left = document.getElementById('l9').offsetLeft,
-			c9top = document.getElementById('l9').offsetTop;
+			c9top = document.getElementById('l9').offsetTop; */
 
 		parallaxBox.onmousemove = function (event) {
 			event = event || window.event;
 			var x = event.clientX - parallaxBox.offsetLeft,
 				y = event.clientY - parallaxBox.offsetTop;
 
-			mouseParallax('l1', c1left, c1top, x, y, 5);
+/* 			mouseParallax('l1', c1left, c1top, x, y, 5);
 			mouseParallax('l2', c2left, c2top, x, y, 25);
 			mouseParallax('l3', c3left, c3top, x, y, 20);
 			mouseParallax('l4', c4left, c4top, x, y, 35);
@@ -83,7 +83,7 @@ $(window).on('load', function () {
 			mouseParallax('l6', c6left, c6top, x, y, 45);
 			mouseParallax('l7', c7left, c7top, x, y, 30);
 			mouseParallax('l8', c8left, c8top, x, y, 25);
-			mouseParallax('l9', c9left, c9top, x, y, 40);
+			mouseParallax('l9', c9left, c9top, x, y, 40); */
 		};
 
 	};
