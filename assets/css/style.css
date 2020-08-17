@@ -1872,3 +1872,13 @@ blockquote {
   margin: 0 .2em .25em -1.6em;
   vertical-align: middle;
 }
+
+.img-fluid {
+  width: 75%;
+}
+
+@media(max-width:991px) {
+  .img-fluid {
+    width: 100%;
+  }
+}
